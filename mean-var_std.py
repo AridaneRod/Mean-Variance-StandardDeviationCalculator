@@ -27,12 +27,12 @@ def calculate(values):
         axis2[4].append(matrix[i,:].min())
         axis2[5].append(matrix[i,:].sum())  
 
-        flattened.append(matrix.mean())
-        flattened.append(matrix.var())   
-        flattened.append(matrix.std())
-        flattened.append(matrix.max())
-        flattened.append(matrix.min())
-        flattened.append(matrix.sum())      
+    flattened.append(matrix.mean())
+    flattened.append(matrix.var())   
+    flattened.append(matrix.std())
+    flattened.append(matrix.max())         
+    flattened.append(matrix.min())
+    flattened.append(matrix.sum())      
 
     for key in di:
         di[key].append(axis1[j])
